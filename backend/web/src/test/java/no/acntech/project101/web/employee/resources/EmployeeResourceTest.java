@@ -1,6 +1,4 @@
-/** TODO If you have time to implement support for connecting an employee to a company
- *  TODO then you can use this test. probably need to change something to make it compile...
-*/package no.acntech.project101.web.employee.resources;
+package no.acntech.project101.web.employee.resources;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import no.acntech.project101.company.Company;
@@ -32,7 +30,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @ExtendWith(SpringExtension.class)
 @WebMvcTest(controllers = EmployeeResource.class)
-@Disabled // TODO Remove this to run the tests. This annotation diables the tests
+//@Disabled // Remove this to run the tests. This annotation diables the tests
 class EmployeeResourceTest {
 
     @Autowired
